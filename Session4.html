@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h3>Unordered list</h3>
+<body><ul>
+    <li>Mango</li>
+    <li>Apple</li>
+    <li>Banana</li>
+    </ul>
+
+    <h3>Ordered list</h3>
+    <ol>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ol>
+
+    <h3>Descriptive List</h3>
+    <dl>
+        <dt>Banana</dt>
+        <dd>Banana is in yellow color</dd>
+        <dt>Apple</dt>
+        <dd>Apple is in red color</dd>
+    </dl>
+
+
+    <table border="3">
+        <tr>       
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>phone No</th>
+        <th>Mail ID</th>
+        <th>Perc</th>
+        <td rowspan="6"> This is rowsapn</td>
+        </tr>
+
+        <tr>
+            <td>Muni</td>
+            <td>22F41A0569</td>
+            <td>98948594</td>  
+            <td>muni3@gmail.com</td> 
+            <td>90%</td>    
+              
+        </tr>
+        <tr>
+            <td>Ravi</td>
+            <td>22F41A0560</td>
+            <td>34758758</td>
+            <td>Ravisk@gmail.com</td>
+            <td>99%</td>
+        </tr>
+        <tr >
+            <td rowsapn = "2">Seenu</td>
+            <td>22F41A0563</td>
+            <td>34758453</td>
+            <td>Seenu@gmail.com</td>
+            <td>98%</td>
+           
+        </tr>
+        <tr >
+            <td colspan="5"><center>Total = 3 </center></td>
+            
+        </tr> 
+    </table>
+<br>
+<br>
+    <form>
+        <legend>Form</legend><br>
+        <label for = "FirstName">Enter your First Name</label>
+        <input type = "text" ></input><br><br>
+        <label for = "LastName">Enter your Last Name</label>
+        <input type = "text" ></input><br><br>
+        <label for = "gender" >Gender</label>
+        <input type = "radio" name = "gender" value="male">male
+        <input type = "radio" name = "gender" value="female">female <br><br>
+        <label for = "Email">Enter your Email</label>
+        <input type ="email"><br><br>
+        <label for = "Password">Enter your password</label>
+        <input type = "password"><br><br>
+        <label for = "password">Confirm your Password</label>
+        <input type = "password"><br><br>
+        <label for = "phonenumber">Enter yout Phone number</label>
+        <input type="tel" id="phone" name="phone"
+         pattern="[6-9]{1}[0-9]{9}" maxlength="10"
+         placeholder="9876543210" required><br><br>
+        <label for = "hobbies">Select State</label>
+        <select>
+            <option value = --State-->--State--</option>
+            <option value = "Andhra Pradesh">Andhra Pradesh</option>
+            <option value = "Telangana" >Telangana</option>
+            <option value = "Madhya pradesh">Madhya pradesh</option>
+        </select>
+        <br><br>
+
+        <div><p>Select yout skills</p>
+
+            <input type = "checkbox" name = "python" id = "python">
+            <lable for = "python">Python</lable><br><br>
+            <input type = "checkbox" name = "c" id = "Java">
+            <lable for = "Java" >Java</lable><br><br>
+            <input type = "checkbox" name = "Javascript" id = "Javascript">
+            <lable for = "Javascript" >Javascript</lable>
+            <br><br>
+        </div>
+        <input type = "submit">
+    </form>
+
+    <audio src = "C:\Users\N MUNEPPA\Downloads\eona-emotional-ambient-pop-351436.mp3" >
+    </audio>
+</body>
+</html>
